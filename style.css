@@ -1,0 +1,60 @@
+#footer{
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+img{
+  width: 1200px;
+  position: relative;
+}
+
+#footer #myName{
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  font-size: 30px;
+}
+#footer #Anakin{
+  position: absolute;
+  top: 180px;
+  left: 250px;
+  font-size: 70px;
+}
+
+.szoveg{
+  margin: 0px 500px 0 250px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #222;
+  line-height: 1.6;
+}
+
+.idezet{
+  font-family: 'Abril Fatface', cursive;
+  margin: 0 450px 0 200px;
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding: 5px;
+}
+.idezojel{
+  position: absolute;
+  color: white;
+  top: 0;
+  margin-top:0;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+}
+
+blockquote::before {
+  content: '”';
+  position: absolute;
+  color: white;
+  top: 0;
+  margin-top:0;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  display: block;
+}
